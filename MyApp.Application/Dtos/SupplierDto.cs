@@ -1,0 +1,1 @@
+using System;\nusing MyApp.Domain.Enums;\n\nnamespace MyApp.Application.Dtos\n{\n    public class SupplierDto\n    {\n        public Guid Id { get; set; }\n        public string Cnpj { get; set; }\n        public PersonType TipoPessoa { get; set; }\n    }\n}\n

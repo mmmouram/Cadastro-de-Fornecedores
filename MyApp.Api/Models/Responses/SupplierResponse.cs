@@ -1,0 +1,1 @@
+using System;\nusing MyApp.Domain.Enums;\n\nnamespace MyApp.Api.Models.Responses\n{\n    public class SupplierResponse\n    {\n        public Guid Id { get; set; }\n        public string Cnpj { get; set; }\n        public PersonType TipoPessoa { get; set; }\n    }\n}\n

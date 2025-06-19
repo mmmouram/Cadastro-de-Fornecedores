@@ -1,0 +1,1 @@
+namespace MyApp.Domain.Enums\n{\n    public enum PersonType\n    {\n        FISICA,\n        JURIDICA,\n        MEI\n    }\n}\n
