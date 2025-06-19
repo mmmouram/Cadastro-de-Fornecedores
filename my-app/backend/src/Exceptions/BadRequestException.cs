@@ -1,0 +1,1 @@
+using System;\n\nnamespace MyApp.Backend.Exceptions\n{\n    public class BadRequestException : Exception\n    {\n        public BadRequestException(string message) : base(message) { }\n    }\n}

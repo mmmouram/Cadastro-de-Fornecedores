@@ -1,0 +1,1 @@
+using System;\nusing MyApp.Backend.Models.Enums;\n\nnamespace MyApp.Backend.DTOs\n{\n    public class SupplierResponse\n    {\n        public Guid Id { get; set; }\n        public string Name { get; set; }\n        public string Cnpj { get; set; }\n        public PersonType PersonType { get; set; }\n    }\n}

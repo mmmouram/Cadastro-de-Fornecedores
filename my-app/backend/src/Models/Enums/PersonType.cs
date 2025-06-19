@@ -1,0 +1,1 @@
+namespace MyApp.Backend.Models.Enums\n{\n    public enum PersonType\n    {\n        NORMAL,\n        MEI\n    }\n}

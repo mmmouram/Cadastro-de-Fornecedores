@@ -1,0 +1,1 @@
+using System.ComponentModel.DataAnnotations;\nusing MyApp.Backend.Models.Enums;\n\nnamespace MyApp.Backend.DTOs\n{\n    public class SupplierRequest\n    {\n        [Required]\n        public string Name { get; set; }\n\n        [Required]\n        public string Cnpj { get; set; }\n\n        [Required]\n        public PersonType PersonType { get; set; }\n    }\n}
